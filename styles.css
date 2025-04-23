@@ -332,7 +332,96 @@
       align-items: stretch;
     }
   }
-  
+  /* Estilos para el componente AddStudentsToCourse */
+.add-students-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.estudiantes-search-section, 
+.estudiantes-actuales {
+  margin-top: 20px;
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.search-results {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.estudiante-item, 
+.estudiante-resultado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  background-color: white;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.estudiante-item:hover, 
+.estudiante-resultado:hover {
+  background-color: #f0f0f0;
+}
+
+.estudiante-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.estudiante-foto {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.btn-eliminar, 
+.btn-agregar {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.btn-eliminar:hover {
+  background-color: #ffebee;
+}
+
+.btn-agregar:hover {
+  background-color: #e8f5e9;
+}
+
+#busquedaEstudiante {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+#listaEstudiantesActuales {
+  list-style-type: none;
+  padding: 0;
+}
+
+.no-results {
+  padding: 10px;
+  text-align: center;
+  color: #777;
+  font-style: italic;
+}
   
   
     
